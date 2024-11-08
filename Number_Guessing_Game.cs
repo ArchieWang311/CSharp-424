@@ -7,8 +7,8 @@ namespace HelloWorldApp
         static void Main(string[] args)
         {
             Random rnd = new Random();
-            // int x = rnd.Next(0, 100);
-            int x = int.Parse(Console.ReadLine());
+            int x = rnd.Next(0, 100);
+            // int x = int.Parse(Console.ReadLine());
             int min_num = 0, max_num = 99;
             int guess;
             while (true)
